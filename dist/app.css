@@ -7,3 +7,26 @@
 header {
   background-color: #c6c1bd;
 }
+header .navbar {
+  width: 80%;
+  margin: auto;
+  padding: 30px 0;
+  display: flex;
+  justify-content: space-between;
+}
+header .navbar .left-side {
+  cursor: pointer;
+}
+header .navbar .right-side .links {
+  display: flex;
+  list-style: none;
+}
+header .navbar .right-side .links li {
+  margin: 0 5px;
+  color: #868686;
+  cursor: pointer;
+}
+header .navbar .right-side .links li:hover {
+  color: #f72b0c;
+  border-bottom: 2px solid #f72b0c;
+}

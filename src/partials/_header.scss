@@ -1,4 +1,42 @@
 // Navbar "The Keynote" fino alla Lente di Ricerca
 header {
     background-color: $firstBgColour;
+
+
+    .navbar {
+        width: 80%;
+        margin: auto;
+        padding: $bigSpacing 0;
+        display: flex;
+        justify-content: space-between;
+
+
+        .left-side {
+            cursor: pointer;
+        }
+
+
+        .right-side {
+
+
+            .links {
+                display: flex;
+                list-style: none;
+
+
+                li {
+                    margin: 0 ($lilSpacing / 2);
+                    color: $secondText;
+
+                    cursor: pointer;
+
+                    &:hover {
+                        color: $linkText;
+
+                        border-bottom: 2px solid $linkText;
+                    }
+                }
+            }
+        }
+    }
 }
