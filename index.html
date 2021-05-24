@@ -14,12 +14,50 @@
     <!-- Link a Vue -->
     <script src="https://cdn.jsdelivr.net/npm/vue@2/dist/vue.js"></script>
 
+    
     <title>PROJ-HTML-VUEJS</title>
 </head>
 
 <body>
+    
+    <div id="app">
+        
+        <header>
+            
+            <section class="navbar">
+                
+                <div class="left-side">
+                    
+                    <div class="logo-container">
+                        <img src="images/logo.png" alt="">
+                    </div>
+                    
+                </div>
+                
+                <div class="right-side">
+                    
+                    <ul class="links">
+                        
+                        <li v-for="link in navbarLinks">
+                            {{ link.text }}
+                        </li>
+    
+                    </ul>
+    
+                </div>
+    
+            </section>
+    
+        </header>
 
-    <div id="app"></div>
+        <main></main>
 
+        <footer>
+
+        </footer>
+
+    </div>
+
+    <script src="Vue.js"></script>
 </body>
 </html>
