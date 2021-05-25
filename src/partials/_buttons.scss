@@ -1,0 +1,10 @@
+.primaryButton {
+    background-color: $linkText;
+    color: $thirdText;
+    font-size: smaller;
+
+    padding: $medSpacing/1.5;
+    border-bottom: 3px solid darken($color: $linkText, $amount: 10);
+
+    text-decoration: none;
+}
