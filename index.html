@@ -24,8 +24,10 @@
         
         <header>
             
+            <!-- Navbar -->
             <section class="navbar">
                 
+                <!-- Brand Side -->
                 <div class="left-side">
                     
                     <div class="logo-container">
@@ -34,13 +36,23 @@
                     
                 </div>
                 
+                <!-- Navbar Side -->
                 <div class="right-side">
                     
                     <ul class="links">
                         
                         <li v-for="link in navbarLinks">
-                            {{ link.text }}
+                            <a :href="link.link">
+                                {{ link.text }}
+                            </a>
+
                         </li>
+
+                        <a href="#">
+                            <i @click="openCloseSearchBar()" class="fas fa-search" v-if="!searchBarActive"></i>
+
+                            <input type="search" v-else="searchBarActive">
+                        </a>
     
                     </ul>
     

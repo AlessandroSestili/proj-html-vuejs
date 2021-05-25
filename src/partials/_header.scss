@@ -24,11 +24,10 @@ header {
                 list-style: none;
 
 
-                li {
+                a {
                     margin: 0 ($lilSpacing / 2);
                     color: $secondText;
-
-                    cursor: pointer;
+                    text-decoration: none;
 
                     &:hover {
                         color: $linkText;

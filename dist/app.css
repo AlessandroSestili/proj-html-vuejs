@@ -21,12 +21,12 @@ header .navbar .right-side .links {
   display: flex;
   list-style: none;
 }
-header .navbar .right-side .links li {
+header .navbar .right-side .links a {
   margin: 0 5px;
   color: #868686;
-  cursor: pointer;
+  text-decoration: none;
 }
-header .navbar .right-side .links li:hover {
+header .navbar .right-side .links a:hover {
   color: #f72b0c;
   border-bottom: 2px solid #f72b0c;
 }
