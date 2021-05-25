@@ -25,6 +25,19 @@ footer {
         }
 
     }
+
+    .imgs-footer-container {
+        display: flex;
+        flex-wrap: wrap;
+
+        // width: 100%;
+
+        &>* {
+            width: 30%;
+
+            padding:3%
+        }
+    }
 }
 
 .bottom-footer {

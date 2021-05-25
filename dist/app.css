@@ -51,6 +51,14 @@ footer {
 .top-footer .internal-wrapper > * > * {
   padding: 10px 0;
 }
+.top-footer .imgs-footer-container {
+  display: flex;
+  flex-wrap: wrap;
+}
+.top-footer .imgs-footer-container > * {
+  width: 30%;
+  padding: 3%;
+}
 
 .bottom-footer {
   background-color: #040404;
