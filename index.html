@@ -69,6 +69,7 @@
             <div class="internal-wrapper">
 
 
+                <!-- ABOUT US -->
                 <div class="about-us-section">
 
                     <h4>ABOUT US</h4>
@@ -93,13 +94,48 @@
                 </div>
     
 
+                <!-- NEWS -->
                 <div class="news-section">
-                    <img src="" alt="">
+                    <h4>RECENT NEWS</h4>
+
+                    <ul class="news-ul">
+                        <li v-for="title in recentNews">
+                            {{ title.title }}
+                        </li>
+                    </ul>
                 </div>
     
-                <div class="seat-section"></div>
+
+                <!-- GET YOUR SEAT  -->
+                <div class="seat-section">
+
+                    <h4>
+                        GET YOUR SEAT
+                    </h4>
+
+                    <p>
+                        Book for your seat before it's too late. 
+                        <br>
+                        We provide variety of ticket options.
+                    </p>
+
+                    <a href="#" class="primaryButton">
+                        CHECK OUT TICKETS
+                    </a>
+
+                </div>
     
-                <div class="gallery-section"></div>
+
+                <!-- GALLERY -->
+                <div class="gallery-section">
+
+                    <h4>GALLERY FROM LAST YEAR</h4>
+
+                    <div class="imgs-footer-container">
+                        <img v-for="img in recentNews" :src="img.lilImg" alt="">
+                    </div>
+
+                </div>
 
             </div>
 

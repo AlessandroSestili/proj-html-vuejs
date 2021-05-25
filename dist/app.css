@@ -42,6 +42,7 @@ footer {
 .top-footer .internal-wrapper {
   width: 80%;
   margin: auto;
+  display: flex;
 }
 .top-footer .internal-wrapper > * {
   width: 25%;
