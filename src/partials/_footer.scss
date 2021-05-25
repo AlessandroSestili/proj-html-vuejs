@@ -1,0 +1,32 @@
+footer {
+    padding: $bigSpacing 0;
+}
+.top-footer {
+    background-color: $topFooterBgColour;
+
+    display: flex;
+
+
+    .internal-wrapper {
+
+        width: 80%;
+        margin: auto;
+
+        &>* {
+            width: 25%;
+
+            color: $thirdText;
+
+            &>* {
+                padding: $lilSpacing 0
+            }
+        }
+
+    }
+}
+
+.bottom-footer {
+    background-color: $bottomFooterBgColour;
+
+    display: flex;
+}

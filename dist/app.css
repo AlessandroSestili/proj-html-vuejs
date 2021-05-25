@@ -30,3 +30,28 @@ header .navbar .right-side .links a:hover {
   color: #f72b0c;
   border-bottom: 2px solid #f72b0c;
 }
+
+footer {
+  padding: 30px 0;
+}
+
+.top-footer {
+  background-color: #272727;
+  display: flex;
+}
+.top-footer .internal-wrapper {
+  width: 80%;
+  margin: auto;
+}
+.top-footer .internal-wrapper > * {
+  width: 25%;
+  color: #ffffff;
+}
+.top-footer .internal-wrapper > * > * {
+  padding: 10px 0;
+}
+
+.bottom-footer {
+  background-color: #040404;
+  display: flex;
+}
