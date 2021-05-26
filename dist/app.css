@@ -56,6 +56,35 @@ header .header-hero .hero-wrapper .dates-container > * {
   margin: 0 5px;
 }
 
+.question-section .question-wrapper {
+  margin: auto;
+  width: 80%;
+  padding: 30px 0;
+  display: flex;
+  justify-content: center;
+}
+.question-section .question-wrapper > * {
+  width: 30%;
+  padding: calc(10% / 3);
+  position: relative;
+}
+.question-section .question-wrapper > * a {
+  text-decoration: none;
+  color: #f72b0c;
+}
+.question-section .question-wrapper > * i {
+  position: absolute;
+  left: 0;
+  top: 40px;
+  color: #868686;
+}
+.question-section .question-wrapper > * p {
+  color: #868686;
+}
+.question-section .question-wrapper > * > * {
+  padding: 10px 0;
+}
+
 footer {
   padding: 30px 0;
 }

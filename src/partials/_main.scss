@@ -1,0 +1,42 @@
+// QUESTION SECTION
+.question-section {
+    .question-wrapper {
+        margin: auto;
+        width: 80%;
+        padding: $bigSpacing 0;
+
+        display: flex;
+        justify-content: center;
+
+        &>* {
+            width: 30%;
+
+            padding: calc(10% / 3);
+
+            position: relative;
+
+            a {
+                text-decoration: none;
+                color: $linkText;
+            }
+
+            i {
+                position: absolute;
+
+                left: 0;
+                top: $medSpacing*2;
+
+                color: $secondText;
+
+            }
+
+            p {
+                color: $secondText;
+            }
+
+            &>* {
+                padding: $lilSpacing 0;
+            }
+        }
+    }
+}
