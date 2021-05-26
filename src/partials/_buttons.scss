@@ -10,3 +10,24 @@
 
     display:inline-block;
 }
+
+.secondaryButton {
+    background-color: $linkText;
+    color: $thirdText;
+    font-size: smaller;
+
+    padding: $medSpacing/1.5;
+
+    text-decoration: none;
+
+    display:flex;
+    flex-direction: column;
+    width: 100%;
+    border-left: 1px solid $bottomButton;
+
+    cursor: pointer;
+
+    &:hover {
+        background-color: darken($color: $linkText, $amount: 5);
+    }
+}
