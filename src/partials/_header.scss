@@ -42,5 +42,35 @@ header {
     //HEADER HERO
     .header-hero {
         background-image: url(/images/slider-1-bg.jpg);
+
+        //HERO wrapper
+        .hero-wrapper {
+            width: 80%;
+            margin: auto;
+            color: $thirdText;
+
+            padding: $bigSpacing*2 0;
+
+            display: flex;
+            flex-direction: column;
+            
+            align-items: center;
+
+            span,h1,div {
+                padding-bottom: $lilSpacing;
+                text-align: center;
+            }
+            .dates-container {
+                display: flex;
+
+                border-top: 2px solid $thirdText;
+                padding-top: $lilSpacing;
+                justify-content: center;
+
+                &>* {
+                    margin: 0 ( $lilSpacing/2);
+                }
+            }
+        }
     }
 }
