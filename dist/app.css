@@ -109,6 +109,33 @@ header .header-hero .hero-wrapper .dates-container > * {
   border-radius: 3.3333333333px;
 }
 
+.speakers-section {
+  background-color: #c6c1bd;
+}
+.speakers-section .speakers-wrapper {
+  margin: auto;
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.speakers-section .speakers-wrapper .top-part {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+.speakers-section .speakers-wrapper .bottom-part {
+  display: flex;
+  justify-content: space-between;
+}
+.speakers-section .speakers-wrapper .bottom-part div {
+  padding: 0 5px;
+  text-align: center;
+}
+.speakers-section .speakers-wrapper .bottom-part div img {
+  width: 90%;
+}
+
 footer {
   padding: 30px 0;
 }
