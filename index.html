@@ -196,44 +196,6 @@
 
                         </div>
 
-                        <!-- <div class="speaker-card">
-
-                            <div class="img-container">
-                                <img src="/images/speaker-5.jpg" alt="">
-                            </div>
-    
-                            <h5>PATRCK SPENCER</h5>
-    
-                            <span>S&P Analyzer</span>
-
-                        </div>
-
-                        <div class="speaker-card">
-
-                            <div class="img-container">
-                                <img src="/images/speaker-4.jpg" alt="">
-                            </div>
-    
-                            <h5>PATRCK SPENCER</h5>
-    
-                            <span>S&P Analyzer</span>
-
-                        </div>
-
-                        <div class="speaker-card">
-
-                            <div class="img-container">
-                                <img src="/images/speaker-3.jpg" alt="">
-                            </div>
-    
-                            <h5>PATRCK SPENCER</h5>
-    
-                            <span>S&P Analyzer</span>
-
-                        </div> -->
-
-                        
-
                     </div>
 
                 </div>
@@ -259,39 +221,11 @@
 
                         <div class="days-container">
 
-                            <a class="secondaryButton">
+                            <a class="secondaryButton" v-for="item in speakersAndDates">
 
-                                <div>DAY 1</div>
+                                <div>DAY {{item.day}}</div>
 
-                                <div>23 May 2016</div>
-
-                            </a>
-                            <a class="secondaryButton">
-
-                                <div>DAY 1</div>
-
-                                <div>23 May 2016</div>
-
-                            </a>
-                            <a class="secondaryButton">
-
-                                <div>DAY 1</div>
-
-                                <div>23 May 2016</div>
-
-                            </a>
-                            <a class="secondaryButton">
-
-                                <div>DAY 1</div>
-
-                                <div>23 May 2016</div>
-
-                            </a>
-                            <a class="secondaryButton">
-
-                                <div>DAY 1</div>
-
-                                <div>23 May 2016</div>
+                                <div>{{item.date}}</div>
 
                             </a>
 
