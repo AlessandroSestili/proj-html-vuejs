@@ -1,6 +1,9 @@
 footer {
     padding: $bigSpacing 0;
+    color: $secondText;
 }
+
+//TOP FOOTER
 .top-footer {
     background-color: $topFooterBgColour;
 
@@ -40,8 +43,19 @@ footer {
     }
 }
 
+//BOTTOM FOOTER
 .bottom-footer {
     background-color: $bottomFooterBgColour;
 
-    display: flex;
+    .footer-wrapper {
+        width: 80%;
+        margin: auto;
+
+        display: flex;
+        justify-content: space-between;
+
+        .right-side {
+            display: flex;
+        }
+    }
 }
