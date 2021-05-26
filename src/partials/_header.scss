@@ -2,7 +2,7 @@
 header {
     background-color: $firstBgColour;
 
-
+    // NAVBAR
     .navbar {
         width: 80%;
         margin: auto;
@@ -37,5 +37,10 @@ header {
                 }
             }
         }
+    }
+
+    //HEADER HERO
+    .header-hero {
+        background-image: url(/images/slider-1-bg.jpg);
     }
 }
