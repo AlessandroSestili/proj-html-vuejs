@@ -173,6 +173,59 @@ var app = new Vue({
           title: "LEARN HOW TO LEARN",
           text: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum et eum, sint nemo accusamus distinctio officia laborum ratione, rerum magnam sed nihil sapiente nam nesciunt suscipit eius optio, quae alias."
         },
+      ],
+
+      //Array con Speakers e date
+      speakersAndDates: [
+        {
+          day: "1",
+          date: "23 May 2016",
+          time: "09:00 - 10:30",
+
+          title: "WELCOMING AND INTRODUCTION",
+          text: "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Laboriosam porro explicabo, autem nam non vitae eum ad suscipit quidem molestias.",
+          speaker: "/Users/alessandrosestili/Desktop/Boolean/Progetti Boolean/proj-html-vuejs/images/speaker-1-150x150.jpg"
+        },
+
+        {
+          day: "2",
+          date: "24 May 2016",
+          time: "09:00 - 10:30",
+
+          title: "FIRST STEP",
+          text: "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Laboriosam porro explicabo, autem nam non vitae eum ad suscipit quidem molestias.",
+          speaker: "/Users/alessandrosestili/Desktop/Boolean/Progetti Boolean/proj-html-vuejs/images/speaker-2-150x150.jpg"
+        },
+
+        {
+          day: "3",
+          date: "25 May 2016",
+          time: "09:00 - 10:30",
+
+          title: "OUR TRIP",
+          text: "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Laboriosam porro explicabo, autem nam non vitae eum ad suscipit quidem molestias.",
+          speaker: "/Users/alessandrosestili/Desktop/Boolean/Progetti Boolean/proj-html-vuejs/images/speaker-3-150x150.jpg"
+        },
+
+        {
+          day: "4",
+          date: "26 May 2016",
+          time: "09:00 - 10:30",
+
+          title: "BEST PRACTICE",
+          text: "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Laboriosam porro explicabo, autem nam non vitae eum ad suscipit quidem molestias.",
+          speaker: "/Users/alessandrosestili/Desktop/Boolean/Progetti Boolean/proj-html-vuejs/images/speaker-1-150x150.jpg"
+        },
+
+        {
+          day: "5",
+          date: "27 May 2016",
+          time: "09:00 - 10:30",
+
+          title: "CONCLUSION",
+          text: "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Laboriosam porro explicabo, autem nam non vitae eum ad suscipit quidem molestias.",
+          speaker: "/Users/alessandrosestili/Desktop/Boolean/Progetti Boolean/proj-html-vuejs/images/speaker-1-150x150.jpg"
+        }
       ]
     },
 
