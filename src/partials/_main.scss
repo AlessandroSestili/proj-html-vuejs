@@ -206,3 +206,34 @@
         }
     }
 }
+
+
+//TICKETS section
+.tickets-section {
+    background-image: url(/images/ticket-bg.jpg);
+
+    .tickets-wrapper {
+        width: 80%;
+        margin: auto;
+
+        .bottom-part {
+            display: flex;
+            justify-content: center;
+
+            .card {
+                width: 30%;
+                margin: 0 $lilSpacing;
+                text-align: center;
+
+
+                .header-card {
+                    background-color: $secondText;
+                }
+
+                .main-card {
+                    background-color: $thirdText;
+                }
+            }
+        }
+    }
+}

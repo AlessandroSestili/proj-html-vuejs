@@ -198,6 +198,29 @@ header .header-hero .hero-wrapper .dates-container > * {
   max-width: 100%;
 }
 
+.tickets-section {
+  background-image: url(/images/ticket-bg.jpg);
+}
+.tickets-section .tickets-wrapper {
+  width: 80%;
+  margin: auto;
+}
+.tickets-section .tickets-wrapper .bottom-part {
+  display: flex;
+  justify-content: center;
+}
+.tickets-section .tickets-wrapper .bottom-part .card {
+  width: 30%;
+  margin: 0 10px;
+  text-align: center;
+}
+.tickets-section .tickets-wrapper .bottom-part .card .header-card {
+  background-color: #868686;
+}
+.tickets-section .tickets-wrapper .bottom-part .card .main-card {
+  background-color: #ffffff;
+}
+
 footer {
   padding: 30px 0;
 }
