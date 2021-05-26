@@ -154,3 +154,26 @@
 
     height: 50vh;
 }
+
+
+//LOCATION section 
+.location-section {
+    background-image: url(/images/location-bg.jpg);
+
+    color: $thirdText;
+
+    .location-wrapper {
+        width: 80%;
+        margin: auto;
+
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+        .contact-container {
+            display: flex;
+
+            border-top: 2px solid white;
+        }
+    }
+}

@@ -163,6 +163,22 @@ header .header-hero .hero-wrapper .dates-container > * {
   height: 50vh;
 }
 
+.location-section {
+  background-image: url(/images/location-bg.jpg);
+  color: #ffffff;
+}
+.location-section .location-wrapper {
+  width: 80%;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.location-section .location-wrapper .contact-container {
+  display: flex;
+  border-top: 2px solid white;
+}
+
 footer {
   padding: 30px 0;
 }
