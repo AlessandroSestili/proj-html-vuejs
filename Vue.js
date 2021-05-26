@@ -160,6 +160,19 @@ var app = new Vue({
           title: "LEARN HOW TO LEARN",
           text: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum et eum, sint nemo accusamus distinctio officia laborum ratione, rerum magnam sed nihil sapiente nam nesciunt suscipit eius optio, quae alias."
         },
+
+        //STUDIO
+        {
+          lilImg: "images/photodune-8797753-multiethnic-people-with-startup-business-t (1).jpg",
+
+          medImg: "images/photodune-8797753-multiethnic-people-with-startup-business-t.jpg",
+
+          bigImg: "images/photodune-8797753-multiethnic-people-with-startup-business-t (2).jpg",
+
+          date: "27 May 2003",
+          title: "LEARN HOW TO LEARN",
+          text: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum et eum, sint nemo accusamus distinctio officia laborum ratione, rerum magnam sed nihil sapiente nam nesciunt suscipit eius optio, quae alias."
+        },
       ]
     },
 
@@ -175,6 +188,6 @@ var app = new Vue({
         if(this.searchBarActive == true) {
           this.searchBarActive = false
         }
-      }
+      },
     }
   })

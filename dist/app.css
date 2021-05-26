@@ -189,12 +189,17 @@ header .header-hero .hero-wrapper .dates-container > * {
 .news-section .news-wrapper .bottom-part {
   display: flex;
   justify-content: center;
+  flex-wrap: wrap;
+  overflow: hidden;
 }
 .news-section .news-wrapper .bottom-part .card {
   width: 30%;
   margin: 0 10px;
 }
-.news-section .news-wrapper .bottom-part .card img {
+.news-section .news-wrapper .bottom-part .card .img-container {
+  width: 90%;
+}
+.news-section .news-wrapper .bottom-part .card .img-container img {
   max-width: 100%;
 }
 

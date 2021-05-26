@@ -383,53 +383,23 @@
 
                     <div class="bottom-part">
 
-                        <div class="card">
+                        <div class="card" v-for="(img , index) in recentNews.slice(0,3)">
 
                             <div class="img-container">
-                                <img src="images/photodune-6745606-man-wristwatch-calendar-key-and-glasses-on (1).jpg" alt="">
+                                <img :src="img.bigImg" alt="">
                             </div>
 
-                            <span>03 Dec 2013 / 0 comments</span>
+                            <span>{{img.date}} / {{index}} comments </span>
 
-                            <h3>SEDIAL EIUSMOD TEMPOR</h3>
+                            <h3>{{img.title}}</h3>
 
-                            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Molestiae nulla a fuga est ut aut eaque quis, in recusandae ex.</p>
+                            <p>{{img.text}}</p>
 
                             <a href="#">Read More</a>
 
                         </div>
 
-                        <div class="card">
-
-                            <div class="img-container">
-                                <img src="images/photodune-6745606-man-wristwatch-calendar-key-and-glasses-on (1).jpg" alt="">
-                            </div>
-
-                            <span>03 Dec 2013 / 0 comments</span>
-
-                            <h3>SEDIAL EIUSMOD TEMPOR</h3>
-
-                            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Molestiae nulla a fuga est ut aut eaque quis, in recusandae ex.</p>
-
-                            <a href="#">Read More</a>
-
-                        </div>
-
-                        <div class="card">
-
-                            <div class="img-container">
-                                <img src="images/photodune-6745606-man-wristwatch-calendar-key-and-glasses-on (1).jpg" alt="">
-                            </div>
-
-                            <span>03 Dec 2013 / 0 comments</span>
-
-                            <h3>SEDIAL EIUSMOD TEMPOR</h3>
-
-                            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Molestiae nulla a fuga est ut aut eaque quis, in recusandae ex.</p>
-
-                            <a href="#">Read More</a>
-
-                        </div>
+                        
 
                     </div>
 
@@ -658,7 +628,7 @@
                     <h4>RECENT NEWS</h4>
 
                     <ul class="news-ul">
-                        <li v-for="title in recentNews">
+                        <li v-for="title in recentNews.slice(0,5)">
                             {{ title.title }}
                         </li>
                     </ul>
