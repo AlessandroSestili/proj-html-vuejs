@@ -156,6 +156,13 @@ header .header-hero .hero-wrapper .dates-container > * {
   flex-grow: 1;
 }
 
+.map-section {
+  background-image: url(/images/screenshot-londra.png);
+  background-position-y: center;
+  background-size: cover;
+  height: 50vh;
+}
+
 footer {
   padding: 30px 0;
 }
