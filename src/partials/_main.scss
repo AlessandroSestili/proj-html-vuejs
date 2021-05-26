@@ -177,3 +177,32 @@
         }
     }
 }
+
+
+//NEWS section 
+.news-section {
+
+
+    .news-wrapper {
+        width: 80%;
+        margin: auto;
+
+        .top-part {
+            display: flex;
+        }
+
+        .bottom-part {
+            display: flex;
+            justify-content: center;
+
+            .card {
+                width: 30%;
+                margin: 0 $lilSpacing;
+
+                img {
+                    max-width: 100%;
+                }
+            }
+        }
+    }
+}

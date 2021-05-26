@@ -179,6 +179,25 @@ header .header-hero .hero-wrapper .dates-container > * {
   border-top: 2px solid white;
 }
 
+.news-section .news-wrapper {
+  width: 80%;
+  margin: auto;
+}
+.news-section .news-wrapper .top-part {
+  display: flex;
+}
+.news-section .news-wrapper .bottom-part {
+  display: flex;
+  justify-content: center;
+}
+.news-section .news-wrapper .bottom-part .card {
+  width: 30%;
+  margin: 0 10px;
+}
+.news-section .news-wrapper .bottom-part .card img {
+  max-width: 100%;
+}
+
 footer {
   padding: 30px 0;
 }
