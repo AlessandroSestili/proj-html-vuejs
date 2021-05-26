@@ -184,19 +184,19 @@
 
                     <div class="bottom-part">
 
-                        <div class="speaker-card">
+                        <div class="speaker-card" v-for="speaker in speakersAndDates.slice(0,4)">
 
                             <div class="img-container">
-                                <img src="/images/speaker-6.jpg" alt="">
+                                <img :src="speaker.speaker" alt="">
                             </div>
     
-                            <h5>PATRCK SPENCER</h5>
+                            <h5>{{speaker.name}}</h5>
     
-                            <span>S&P Analyzer</span>
+                            <span>{{speaker.job}}</span>
 
                         </div>
 
-                        <div class="speaker-card">
+                        <!-- <div class="speaker-card">
 
                             <div class="img-container">
                                 <img src="/images/speaker-5.jpg" alt="">
@@ -230,7 +230,7 @@
     
                             <span>S&P Analyzer</span>
 
-                        </div>
+                        </div> -->
 
                         
 

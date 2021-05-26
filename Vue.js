@@ -184,7 +184,10 @@ var app = new Vue({
 
           title: "WELCOMING AND INTRODUCTION",
           text: "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Laboriosam porro explicabo, autem nam non vitae eum ad suscipit quidem molestias.",
-          speaker: "/Users/alessandrosestili/Desktop/Boolean/Progetti Boolean/proj-html-vuejs/images/speaker-1-150x150.jpg"
+          speaker: "images/speaker-1-150x150.jpg",
+          name: "Mario Alori",
+          job: "Sturbuck's CEO"
+
         },
 
         {
@@ -194,7 +197,11 @@ var app = new Vue({
 
           title: "FIRST STEP",
           text: "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Laboriosam porro explicabo, autem nam non vitae eum ad suscipit quidem molestias.",
-          speaker: "/Users/alessandrosestili/Desktop/Boolean/Progetti Boolean/proj-html-vuejs/images/speaker-2-150x150.jpg"
+          speaker: "images/speaker-2-150x150.jpg",
+          name: "Giuseppe Simone",
+          job: "Maxii's Manager"
+
+
         },
 
         {
@@ -204,7 +211,11 @@ var app = new Vue({
 
           title: "OUR TRIP",
           text: "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Laboriosam porro explicabo, autem nam non vitae eum ad suscipit quidem molestias.",
-          speaker: "/Users/alessandrosestili/Desktop/Boolean/Progetti Boolean/proj-html-vuejs/images/speaker-3-150x150.jpg"
+          speaker: "images/speaker-3-150x150.jpg",
+          name: "Maria Donadoni",
+          job: "Data Analyzer"
+
+
         },
 
         {
@@ -214,7 +225,9 @@ var app = new Vue({
 
           title: "BEST PRACTICE",
           text: "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Laboriosam porro explicabo, autem nam non vitae eum ad suscipit quidem molestias.",
-          speaker: "/Users/alessandrosestili/Desktop/Boolean/Progetti Boolean/proj-html-vuejs/images/speaker-1-150x150.jpg"
+          speaker: "images/speaker-1-150x150.jpg",
+          name: "Simon McDermon",
+          job: "Mangiatore di banane"
         },
 
         {
@@ -224,7 +237,9 @@ var app = new Vue({
 
           title: "CONCLUSION",
           text: "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Laboriosam porro explicabo, autem nam non vitae eum ad suscipit quidem molestias.",
-          speaker: "/Users/alessandrosestili/Desktop/Boolean/Progetti Boolean/proj-html-vuejs/images/speaker-1-150x150.jpg"
+          speaker: "images/speaker-1-150x150.jpg",
+          name: "Patrizia Sgarbi",
+          job: "Pistolero"
         }
       ]
     },
